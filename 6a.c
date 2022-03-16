@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
    
-   long num;
+   int num;
    
 
-   scanf("%ld",&num);
-   long a[num];
+   scanf("%d",&num);
+   int a[num];
     a[0]=0;
     a[1]=1;
 
@@ -15,12 +15,12 @@ int main(){
    }
 
    for(int i=0; i<=num-1;i++){
-       printf("%ld\n",a[i]);
+       printf("%d\n",a[i]);
        
    }
    printf("\n");
 
-   printf("%ld\n",a[num-1]);
+   printf("%d\n",a[num-1]);
 
 
     return 0;
